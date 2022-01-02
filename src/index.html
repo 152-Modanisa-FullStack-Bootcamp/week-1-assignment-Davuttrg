@@ -1,12 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <title>My First Parcel App</title>
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="app.js"></script>
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <div class="container">
+      <div class="form">
+        <div class="form-header">
+          <h1>Login</h1>
+        </div>
+        <div class="form-body">
+          <div class="item">
+            <input type="text" name="username" placeholder="Username" />
+          </div>
+          <div class="item">
+            <input type="password" name="password" placeholder="Password" />
+          </div>
+          <div class="item">
+            <div>Forgot Password?</div>
+          </div>
+          <div class="item">
+            <button>Login</button>
+          </div>
+        </div>
+        <div class="form-footer">Not a member? <span>Signup</span></div>
+      </div>
+    </div>
   </body>
 </html>
