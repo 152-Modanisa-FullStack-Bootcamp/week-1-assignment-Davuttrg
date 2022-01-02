@@ -1,4 +1,16 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+.products {
+  display: flex;
+  gap: 30px;
+  font-family: "Trebuchet MS",sans-serif;
+}
+.products > .product {
+  box-shadow: 0px 8px 22px -15px rgb(0 0 0);
+}
+.products > .product > img {
+  width: 240px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.products > .product > p {
+ padding: 5px 10px;
 }
